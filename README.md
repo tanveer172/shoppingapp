@@ -2,6 +2,7 @@
 
 
 
+#goto root folder and execute npm install command 
 
 
 
