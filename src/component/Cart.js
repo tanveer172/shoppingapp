@@ -4,9 +4,9 @@ import { decrement } from "../store/reducer";
 const Cart = () =>{
  const cartitems = useSelector((state) => state.counter.cartItems);
  const dispatch = useDispatch();
- const decrementfunc = (id)=>{
-    dispatch(decrement(cra))
- }
+//  const decrementfunc = (id)=>{
+//     dispatch(decrement(cra))
+//  }
  console.log(cartitems);
  const cartUi = cartitems.map((cartItem) =><div key={cartItem.id} className="cartitem-card-layout">
     <div className="cart-card-container">

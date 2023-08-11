@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import Productitem from "./productListitem";
+import SliderComponent from "./Slidercomponent";
+
 
  const Home =()=>{
 
@@ -49,10 +51,13 @@ import Productitem from "./productListitem";
 
     return(
        <>
-       <div className = "banner-container" >
+       <div className = "slider-container">
+       <SliderComponent />
+       </div>
+       {/* <div className = "banner-container" >
         <div className = "banner">
         </div>
-       </div>
+       </div> */}
        <div className = "prodlist">
           <Productitem data={products} />
           </div>

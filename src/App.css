@@ -103,6 +103,12 @@ html, body {
   width: 100%;
   display: flex;
 }
+.slider-container{
+  text-align: center;
+  justify-content:center;
+  width: 100%;
+  display: flex;
+}
 
 
 /* card layout */
@@ -214,4 +220,14 @@ margin:30px;
  margin-left: 50px;
  width: 360px;
 }
+.wishlisted-icon{
+  float: right;
+  margin-right: 10px;
+  font-size: 20px;
+  transition: 2s;
+}
+.wishlisted-ic:hover{
 
+  font-size: 30px;
+  color: red;
+}
