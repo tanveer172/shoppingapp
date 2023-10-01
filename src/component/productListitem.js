@@ -3,6 +3,7 @@ import { decrement,increment,incrementusingApi } from "../store/reducer";
 import { useDispatch,useSelector } from "react-redux";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-regular-svg-icons';
+import { Navigation } from "react-router-dom";
 const Productitem = (props) => {
     console.log(props.data);
     let prods = props.data;

@@ -7,6 +7,7 @@ import  About  from './component/About';
 import Home from './component/Home';
 import Cart from './component/Cart';
 import Offers from './component/Offers';
+import Category from './component/Category';
 import {createBrowserRouter,RouterProvider} from 'react-router-dom'
 import { Provider } from 'react-redux';
 import { store } from './store/store';
@@ -34,6 +35,10 @@ const approuter = createBrowserRouter(
         {
           path: "/offers",
           element : <Offers />
+        },
+        {
+          path : "/category",
+          element : <Category />
         }
       ]
     },
